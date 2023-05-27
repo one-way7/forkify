@@ -69,7 +69,7 @@ class PaginationView extends View {
         `;
         }
 
-        return;
+        return '';
     }
 }
 
