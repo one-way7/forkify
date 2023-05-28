@@ -1,8 +1,6 @@
 import View from './View';
 import icons from 'url:../../img/icons.svg';
 
-import { MODAL_CLOSE_SEC } from '.././services/config';
-
 class AddRecipeView extends View {
     _parentElement = document.querySelector('.upload');
     _message = 'Recipe was successfully uploaded :)';
@@ -42,11 +40,6 @@ class AddRecipeView extends View {
             const dataArr = [...new FormData(this)];
             const data = Object.fromEntries(dataArr);
             handler(data);
-
-            setTimeout(() => {
-                // addRecipeView.removeWindow();
-                location.reload();
-            }, MODAL_CLOSE_SEC * 1000);
         });
     }
 
