@@ -6,6 +6,8 @@ import paginationView from './views/paginationView';
 import bookmarksView from './views/bookmarksView';
 import addRecipeView from './views/addRecipeView';
 
+import { MODAL_CLOSE_SEC } from './services/config';
+
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
@@ -81,6 +83,10 @@ const controlAddRecipe = async newRecipe => {
         bookmarksView.render(model.state.bookmarks);
 
         window.history.pushState(null, '', `#${model.state.recipe.id}`);
+
+        setTimeout(() => {
+            addRecipeView.removeWindow();
+        }, MODAL_CLOSE_SEC * 1000);
     } catch (err) {
         addRecipeView.renderError(err.message);
     }
