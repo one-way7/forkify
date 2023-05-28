@@ -1,7 +1,7 @@
 import View from './View';
 import icons from 'url:../../img/icons.svg';
 
-import { MODAL_CLOSE_SEC } from '../config';
+import { MODAL_CLOSE_SEC } from '.././services/config';
 
 class AddRecipeView extends View {
     _parentElement = document.querySelector('.upload');
