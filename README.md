@@ -1,5 +1,5 @@
 # 🌱Forkify - A Recipe Finding Web app 🥣🍴
-Forkify is a vanilla JavaScript application that interacts with the food2fork API to fetch and display recipe food data. This app uses modern JavaScript tools, such as Parcel to bundle the modules, and Babel to convert ES6, ES7 and ES8 back to ES5. The user can search for a specific recipe, and add ingredients to a shopping list or save to a favourites list via local storage. 
+Forkify is a vanilla JavaScript application that interacts with the food2fork API to fetch and display recipe food data. This app uses modern JavaScript tools, such as Parcel to bundle the modules, and Babel to convert ES6, ES7 and ES8 back to ES5. The user can search for a specific recipe, or add your own recipes and save to a favorites list via local storage.
 ### Features
 - Query an ingredient to recieve a list of recipes containing that ingredient.
 - Easily bookmark or edit the servings of the selected recipe.
