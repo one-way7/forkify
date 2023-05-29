@@ -14,7 +14,7 @@ Forkify is a vanilla JavaScript application that interacts with the food2fork AP
 * Parcel
 * Sass
 * [Forkify-API](https://forkify-api.herokuapp.com/v2)
-### ✨ [Demo](#)
+### ✨ [Demo](https://forkify-recipe7.netlify.app/)
 ![Fun-1 (3)](https://github.com/one-way7/forkify/assets/121254183/ca7cbfba-4b06-4cf7-878d-2efba2c29889)
 ---
 This was the final project as part of a Udemy course - [The Complete JavaScript Course 2023](https://www.udemy.com/course/the-complete-javascript-course/). by Jonas Schmedtmann.
